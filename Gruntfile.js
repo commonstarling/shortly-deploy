@@ -122,7 +122,7 @@ module.exports = function(grunt) {
     if (grunt.option('prod')) {
       grunt.task.run(['shell:prodServer']);
     } else {
-      grunt.task.run([ 'server-dev' ]);
+      grunt.task.run(['server-dev']);
     }
   });
 
